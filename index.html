@@ -4,12 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube-clone</title>
+
+    <style>
+      .main-nav {
+        font-size: large;
+        padding-bottom: 10px;
+      }
+      .main-nav a {
+        text-decoration: none;
+        color: black;
+      }
+      .main-nav .Search {
+        height: 40px;
+        width: 321px;
+        border-radius: 30px;
+        border-width: 1px;
+        padding-left: 15px;
+        font-weight: bold;
+        font-size: medium;
+        display: inline-block;
+        margin-left: 300px;
+      }
+      .main-body .video {
+        width: 400px;
+        height: 350px;
+        float: left;
+        padding-right: 10px;
+      }
+      .main-body .video a {
+        text-decoration: none;
+        color: black;
+      }
+      .main-body .video .video-title {
+        font-size: 20px;
+      }
+      .main-body .video .thumbnail {
+        width: 400px;
+        height: 220px;
+      }
+      .main-body .video .yt-lookup .channel-logo {
+        height: 36px;
+        border-radius: 18px;
+        display: inline-block;
+      }
+    </style>
   </head>
   <body>
     <nav>
       <div class="main-nav">
         <a href="index.html" class="logo">Youtube-clone</a>
-        <input type="text" placeholder="Search" />
+        <input class="Search" type="text" placeholder="Search" />
       </div>
     </nav>
     <div class="main-body">
